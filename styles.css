@@ -28,3 +28,11 @@ a{
 .container__text{
     margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .container__highlights{
+        width: 350px;
+        padding: 20px;
+    }
+
+}
