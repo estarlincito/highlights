@@ -31,8 +31,8 @@ a{
 
 @media screen and (max-width: 600px) {
     .container__highlights{
-        width: 300px;
-        padding: 20px;
+        width: 280px;
+        padding: 10px;
     }
 
 }
