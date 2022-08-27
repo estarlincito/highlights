@@ -1,5 +1,5 @@
 # Highlights
 
-My highlights article
+My article highlights 
 
 Link: https://estarlincito.github.io/highlights
