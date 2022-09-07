@@ -1,5 +1,5 @@
 [
-  { "value": 52 },
+  { "value": 57 },
   {
     "title": "Ahora solo quiero tranquilidad ¿qué hay detrás de este sentimiento?",
     "text": "Prioriza. Clarifica qué es prioritario en tu vida y qué es secundario",
@@ -859,5 +859,25 @@
     "title": "Cómo vivir sin tener un trabajo",
     "text": "Si unes tiempo y dinero, tendrás un trabajo.",
     "url": "https://es.wikihow.com/vivir-sin-tener-un-trabajo"
+  },
+  {
+    "title": "El amor \"consciente\" y la madurez emocional",
+    "text": "El amor llegará cuando tenga que hacerlo",
+    "url": "https://lamenteesmaravillosa.com/el-amor-consciente-y-la-madurez-emocional"
+  },
+  {
+    "title": "La estrategia mental para conseguir lo que quieras",
+    "text": "Puedes conseguir lo que quieras, pero has de creerlo",
+    "url": "https://lamenteesmaravillosa.com/la-estrategia-mental-para-conseguir-lo-que-quieras/"
+  },
+  {
+    "title": "No te rindas, aunque el frío queme, aunque el miedo muerda.",
+    "text": "la vida es lo que ocurre hoy, no mañana.",
+    "url": "https://lamenteesmaravillosa.com/no-te-rindas-aunque-el-frio-queme-aunque-el-miedo-muerda/"
+  },
+  {
+    "title": "No te rindas, aunque el frío queme, aunque el miedo muerda.",
+    "text": "nuestra naturaleza no es quedarnos quietos, eso lo hacen las piedras, nosotros evolucionamos y nos protegemos de la lluvia y nos calentamos ante el frío",
+    "url": "https://lamenteesmaravillosa.com/no-te-rindas-aunque-el-frio-queme-aunque-el-miedo-muerda/"
   }
 ]
