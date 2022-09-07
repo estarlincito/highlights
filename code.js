@@ -1,5 +1,10 @@
 const highlights = document.getElementById("highlights");
 
+
+function copyText(){
+  navigator.clipboard.writeText(localStorage.getItem("copyText"));
+}
+
 //data__highlights
 fetch("data.json")
   .then((response) => response.json())
@@ -11,6 +16,8 @@ fetch("data.json")
       localStorage.status++;
     }
 
+ 
+
     //reset__localStorage
     if (localStorage.status >= data.length) {
       localStorage.status = 1;
@@ -20,7 +27,13 @@ fetch("data.json")
 
     highlights.innerHTML = `
     <div class="container__text">
-        <a href="${data[status].url}" target="_blank">${data[status].text}</a>
+        <a href="${data[status].url}" target="_blank"><span>${status}:</span> ${data[status].text}</a>
+
+        <i class="copyText" onclick={copyText()}>Copiar</i>
     </div>
     `;
+
+
+    localStorage.setItem("copyText", data[status].text);
+
   });
