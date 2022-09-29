@@ -22,8 +22,8 @@ a {
   display: grid;
   margin: auto;
   width: 400px;
-  background-color: rgb(150, 6, 175);
-  box-shadow: inset 0 0 3px rgba(74, 68, 68, 0.521);
+  /* background-color: rgb(150, 6, 175); */
+  /* box-shadow: inset 0 0 3px rgba(74, 68, 68, 0.521); */
   padding: 30px;
   border-radius: 10px;
 }
