@@ -25,9 +25,9 @@ fetch("data.json")
     highlights.innerHTML = `
     <i class="copyText" onclick={copyText()}>Copiar</i>
     <div class="container__text">
-        <a href="${data[status].url}" target="_blank"><span>${status}</span> ${data[status].text}</a>
+        <a href="${data[status].url}" target="_blank"><span>${status}</span> ${data[status].quote}</a>
     </div>
     `;
 
-    localStorage.setItem("copyText", data[status].text);
+    localStorage.setItem("copyText", data[status].quote);
   });
