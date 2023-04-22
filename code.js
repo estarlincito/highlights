@@ -1,16 +1,16 @@
-const highlights = document.getElementById("highlights");
+const highlights = document.getElementById('highlights');
 
 function copyText() {
-  navigator.clipboard.writeText(localStorage.getItem("copyText"));
+  navigator.clipboard.writeText(localStorage.getItem('copyText'));
 }
 
 //data__highlights
-fetch("data.json")
+fetch('data.json')
   .then((response) => response.json())
   .then((data) => {
     //set__localStorage
     if (!localStorage.status) {
-      localStorage.setItem("status", 1);
+      localStorage.setItem('status', 1);
     } else {
       localStorage.status++;
     }
@@ -20,7 +20,7 @@ fetch("data.json")
       localStorage.status = 1;
     }
 
-    const status = localStorage.getItem("status");
+    const status = localStorage.getItem('status');
 
     highlights.innerHTML = `
     <i class="copyText" onclick={copyText()}>Copiar</i>
@@ -29,5 +29,5 @@ fetch("data.json")
     </div>
     `;
 
-    localStorage.setItem("copyText", data[status].quote);
+    localStorage.setItem('copyText', data[status].quote);
   });

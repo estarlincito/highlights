@@ -4,7 +4,7 @@
 }
 body {
   /* background-color: rgb(248, 155, 248); */
-    background-color: rgb(150, 6, 175);
+  background-color: rgb(150, 6, 175);
 }
 
 a {
@@ -31,12 +31,12 @@ a {
 
 .container__text {
   color: rgb(220, 214, 214);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: auto;
 }
 
 .container__text span {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 40px;
   color: white;
 }
@@ -48,7 +48,7 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 85%;
   opacity: 0.5;
   cursor: pointer;
